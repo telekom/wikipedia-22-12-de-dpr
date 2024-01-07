@@ -1,3 +1,51 @@
 [tool.black]
 line-length = 119
 target-version = ["py310"]
+
+[tool.ruff]
+select = ["ALL"]
+line-length = 119
+fixable = ["I"]
+target-version = "py38"
+ignore = [
+  "DJ",  # flake8-django - https://docs.astral.sh/ruff/rules/#flake8-django-dj
+  "ERA",  # eradicate - https://docs.astral.sh/ruff/rules/#eradicate-era
+  "ANN",  # flake8-annotations - https://docs.astral.sh/ruff/rules/#flake8-annotations-ann
+  "FA",  # flake8-future-annotations - https://docs.astral.sh/ruff/rules/#flake8-future-annotations-fa
+  "EM",  # flake8-errmsg - https://docs.astral.sh/ruff/rules/#flake8-errmsg-em
+  "PTH",  # flake8-use-pathlib - https://docs.astral.sh/ruff/rules/#flake8-use-pathlib-pth
+  "FBT",  # flake8-boolean-trap - https://docs.astral.sh/ruff/rules/#flake8-boolean-trap-fbt
+  "TD", # flake8-todos - https://docs.astral.sh/ruff/rules/#flake8-todos-td
+  "SLF",  # flake8-self - https://docs.astral.sh/ruff/rules/#flake8-self-slf
+  "D107",  # Missing docstring in __init__
+  "D410",  # Missing blank line after section ("{name}")
+  "D411",  # Missing blank line before section ("{name}")
+  "PLR0913",  # Too many arguments to function call ({c_args} > {max_args})
+  "S106",  # Possible hardcoded password assigned to argument: "{}"
+  "COM812",  # Trailing comma missing
+  "S101",  # Use of `assert` detected
+  "PLR2004",  # Magic value used in comparison
+  "B011",  # Do not `assert False`
+  "RET505",  # Unnecessary `else` after `return` statement
+  "TRY003",  # Avoid specifying long messages outside the exception class
+  "RET504",  # Unnecessary assignment before `return` statement
+  "T201",  # `print` found
+  "RET507",  # Unnecessary `else` after `continue` statement
+  "PT015",  # Assertion always fails, replace with `pytest.fail()`
+  "UP015",  # Unnecessary open mode parameters
+  "FIX002",  # Line contains TODO, consider resolving the issue
+  "PT011",  # `pytest.raises(ValueError)` is too broad, set the `match` parameter or use a more specific exception
+  "PT001",  # Use `@pytest.fixture()` over `@pytest.fixture`
+  "RUF015",  # Prefer `next(iter(sentences))` over single element slice
+]
+
+[tool.ruff.per-file-ignores]
+"tests/**/test_*.py" = [
+  "D100",  # Missing docstring in public module
+  "D103",  # Missing docstring in public function
+  "PLR2004",  # Magic value used in comparison, consider replacing {value} with a constant variable
+  "S101",  # Use of assert detected
+]
+
+[tool.ruff.pydocstyle]
+convention = "google"

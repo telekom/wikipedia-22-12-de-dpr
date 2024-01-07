@@ -1,7 +1,7 @@
 pandas
 datasets
 ipykernel
-mltb2[transformers,somajo_transformers,arangodb]>=0.11.0
+mltb2[transformers,somajo_transformers,arangodb,openai]>=0.11.0
 ipywidgets
 black[jupyter]
 mdformat-gfm
@@ -10,3 +10,4 @@ mdformat-footnote
 tqdm
 matplotlib
 scipy
+ruff
