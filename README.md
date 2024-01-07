@@ -52,7 +52,7 @@ Licensed under the **MIT License** (the "License"); you may not use this file ex
 You may obtain a copy of the License by reviewing the file
 [LICENSE](https://github.com/telekom/mltb2/blob/main/LICENSE) in the repository.
 
-### The Wikipedia Texts
+### The Wikipedia Texts, Questions and Imperative Question
 
 The Wikipedia texts are licensed under [CC BY-SA 4.0 Deed](https://creativecommons.org/licenses/by-sa/4.0/deed).
 Indication of changes:
