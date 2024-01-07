@@ -1,5 +1,8 @@
 # Wikipedia 22-12 DE DPR
 
+The aim of this project is to provide a German dataset for the training of DPR models.
+This way German document retriever models can be trained.
+
 ## Prompts
 
 ### Short Question
