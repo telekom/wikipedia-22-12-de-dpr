@@ -4,7 +4,7 @@ The aim of this project is to provide a German dataset for the training of DPR m
 This way German document retriever models can be trained.
 
 The source of our data is the [German Wikipedia](https://de.wikipedia.org/)
-or the data set
+or, to be more precise, the data set
 [Cohere/wikipedia-22-12-de-embeddings](https://huggingface.co/datasets/Cohere/wikipedia-22-12-de-embeddings)
 from [Cohere](https://cohere.com/).
 
