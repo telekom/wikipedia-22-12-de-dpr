@@ -1,4 +1,4 @@
-# Wikipedia 22-12 DE Data
+# Wikipedia 22-12 DE DPR
 
 ## Prompts
 
