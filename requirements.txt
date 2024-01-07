@@ -1,0 +1,12 @@
+pandas
+datasets
+ipykernel
+mltb2[transformers,somajo_transformers,arangodb]>=0.11.0
+ipywidgets
+black[jupyter]
+mdformat-gfm
+mdformat-frontmatter
+mdformat-footnote
+tqdm
+matplotlib
+scipy
