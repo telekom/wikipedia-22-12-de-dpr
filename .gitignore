@@ -161,5 +161,6 @@ cython_debug/
 
 # own entries
 .python-version
-arangodb.env
+config*.env
+config*.yaml
 data/wikipedia-22-12-de-no-emb*

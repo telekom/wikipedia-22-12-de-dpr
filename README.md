@@ -12,6 +12,9 @@ from [Cohere](https://cohere.com/).
 
 ### Short Question
 
+We do not use this prompt anymore, because the questions are not specific enough
+(see TODO / issues).
+
 ```text
 Create a list of 4 very short and simple questions in German language. It must be possible to answer the questions based on the given text.
 Each question must have just a few words. The question must not contain the word "and" (German "und").
@@ -26,25 +29,30 @@ The list of 4 very short and simple questions in German language:
 ### Normal Questions
 
 ```text
-Create a list of 4 questions in German language. It must be possible to answer the questions based on the given text. The question must not contain the word "and" (German "und").
+Create a list of 6 questions in German language. \
+It must be possible to answer the questions based on the given text. \
+The question must not contain the word "and" (German "und").
 
 The given text in German language:
 
 {context}
 
-The list of 4 questions in German language without the word "and" (German "und"):
+The list of 6 different questions in German language without the word "and" (German "und"):
 ```
 
 ### Imperative Question
 
 ```text
-Create a list of 4 very short and simple questions in imperative form. An imperative question is a type of question that is phrased as a command or an instruction. It must be possible to answer the imperative questions based on the given text. Each imperative question must have just a few words. The imperative question must not contain the word "and" (German "und").
+Create a list of 6 short questions in imperative form. \
+An imperative question is a type of question that is phrased as a command or an instruction. \
+It must be possible to answer the imperative questions based on the given text. \
+The imperative question must not contain the word "and" (German "und").
 
 The given text in German language:
 
 {context}
 
-The list of 4 very short and simple questions in imperative form and German language:
+The list of 6 short questions in imperative form and German language:
 ```
 
 ## Licensing
