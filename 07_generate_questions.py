@@ -2,6 +2,9 @@
 # This software is distributed under the terms of the MIT license
 # which is available at https://opensource.org/licenses/MIT
 
+# python 07_generate_questions.py --arango-conf config_arangodb_question.env --openai-conf config_openai_azure.yaml --prompt-type question
+# python 07_generate_questions.py --arango-conf config_arangodb_imperative.env --openai-conf config_openai_azure.yaml --prompt-type imperative
+
 """Generate questions for context with OpenAI LLMs."""
 
 import random
@@ -11,6 +14,7 @@ from datetime import datetime
 from functools import partial
 from typing import Dict, Literal, Sequence
 
+import backoff
 from mltb2.arangodb import ArangoBatchDataManager
 from mltb2.db import BatchDataProcessor
 from mltb2.openai import OpenAiAzureChat, OpenAiChatResult
@@ -80,7 +84,7 @@ def generate_normal_questions(
         print()
     return results
 
-
+@backoff.on_exception(backoff.constant, Exception, max_tries=100, interval=60, jitter=None)
 def main() -> None:
     """Main function."""
     # read command line arguments
