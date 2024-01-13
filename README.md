@@ -15,14 +15,25 @@ of [Deutsche Telekom](https://www.telekom.de/).
 
 ## Dataset Details
 
+### Context Passages
+
 The dataset contains 134,591 context passages.
+
+### Questions
+
 It has a total of 786,353 questions.
 That is an average of 5.84 questions per context.
 We have a maximum of 6 questions per context.
+
+### Imperative Questions
+
 The dataset also contains 793,143 imperative questions.
 An imperative question is a type of question that is phrased as a command or an instruction.
 That is an average of 5.89 imperative questions per context.
 We have a maximum of 6 imperative questions per context.
+
+
+### Data Files
 
 - training data (129,591 context passages): `data/wikipedia-22-12-de-train-data.json.gz`
 - test data (5,000 context passages): `data/wikipedia-22-12-de-test-data.json.gz`
