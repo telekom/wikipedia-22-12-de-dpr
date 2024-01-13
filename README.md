@@ -24,6 +24,9 @@ An imperative question is a type of question that is phrased as a command or an 
 That is an average of 5.89 imperative questions per context.
 We have a maximum of 6 imperative questions per context.
 
+- training data (129,591 context passages): `data/wikipedia-22-12-de-train-data.json.gz`
+- test data (5,000 context passages): `data/wikipedia-22-12-de-test-data.json.gz`
+
 ## Prompts
 
 ### Questions
