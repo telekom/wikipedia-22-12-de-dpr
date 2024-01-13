@@ -8,25 +8,16 @@ or, to be more precise, the data set
 [Cohere/wikipedia-22-12-de-embeddings](https://huggingface.co/datasets/Cohere/wikipedia-22-12-de-embeddings)
 from [Cohere](https://cohere.com/).
 
+## Creator
+
+This data set is compiled and open sourced by [Philip May](https://may.la/)
+of [Deutsche Telekom](https://www.telekom.de/).
+
 ## Prompts
 
-### Short Question
+### Questions
 
-We do not use this prompt anymore, because the questions are not specific enough
-(see TODO / issues).
-
-```text
-Create a list of 4 very short and simple questions in German language. It must be possible to answer the questions based on the given text.
-Each question must have just a few words. The question must not contain the word "and" (German "und").
-
-The given text in German language:
-
-{context}
-
-The list of 4 very short and simple questions in German language:
-```
-
-### Normal Questions
+This prompt was executed with GPT-4 and GPT-3.5-turbo.
 
 ```text
 Create a list of 6 questions in German language. \
@@ -41,6 +32,8 @@ The list of 6 different questions in German language without the word "and" (Ger
 ```
 
 ### Imperative Question
+
+This prompt was executed with GPT-4.
 
 ```text
 Create a list of 6 short questions in imperative form. \
