@@ -1,7 +1,7 @@
 # Wikipedia 22-12 DE DPR
 
-The aim of this project is to provide a German dataset for the training of DPR models.
-This way German document retriever models can be trained.
+The goal of this project is to provide a German dataset for training DPR models.
+Based on this dataset, German document retrieval models can be trained.
 
 The source of our data is the [German Wikipedia](https://de.wikipedia.org/)
 or, to be more precise, the data set
@@ -12,6 +12,17 @@ from [Cohere](https://cohere.com/).
 
 This data set is compiled and open sourced by [Philip May](https://may.la/)
 of [Deutsche Telekom](https://www.telekom.de/).
+
+## Dataset Details
+
+The dataset contains 134,591 context passages.
+It has a total of 786,353 questions.
+That is an average of 5.84 questions per context.
+We have a maximum of 6 questions per context.
+The dataset also contains 793,143 imperative questions.
+An imperative question is a type of question that is phrased as a command or an instruction.
+That is an average of 5.89 imperative questions per context.
+We have a maximum of 6 imperative questions per context.
 
 ## Prompts
 
