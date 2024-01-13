@@ -12,3 +12,4 @@ matplotlib
 scipy
 ruff
 backoff
+jsonlines
