@@ -21,13 +21,13 @@ The dataset contains 134,591 context passages.
 While we generte the context passages we limit the length of them.
 The length is measured with the tokenizer of [`deepset/gbert-base`](https://huggingface.co/deepset/gbert-base).
 We limit the maximum token count to 270.
-A histogram of the token counts can be found below:
+A histogram of the context token counts can be found below:
 
 ![Histogram of token counts](https://raw.githubusercontent.com/telekom/wikipedia-22-12-de-dpr/main/img/context_token_count_histogram.png)
 
 ### Questions
 
-It has a total of 786,353 questions.
+The dataset has a total of 786,353 questions.
 That is an average of 5.84 questions per context.
 We have a maximum of 6 questions per context.
 
@@ -38,6 +38,15 @@ An imperative question is a type of question that is phrased as a command or an 
 That is an average of 5.89 imperative questions per context.
 We have a maximum of 6 imperative questions per context.
 
+### Dataset Issues
+
+Most of the imperative questions are written in formal form. Like this:
+`Geben Sie das Geburts- und Todesjahr von Georg Marius an.`
+
+This formal form does not necessarily correspond to the form used in typical RAG applications.
+It would also be necessary to have informal imperative sentences like this:
+`Gib das Geburts- und Todesjahr von Georg Marius an.`
+We will provide these informal sentences in version 2 of the dataset.
 
 ### Data Files
 
