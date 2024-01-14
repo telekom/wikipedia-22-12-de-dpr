@@ -102,7 +102,7 @@ Der Satz ohne das "Sie": Gebe das Geburtsjahr von Karl Heinz an.
 Der Satz: Sagen Sie, welches Modell das iPhone 11 abgelöst hat.
 Der Satz ohne das "Sie": Sage, welches Modell das iPhone 11 abgelöst hat.
 
-Der Satz: Listen Sie die Farben auf, in denen das iPhone 5s erhältlich war.
+Der Satz: {sentence}
 Der Satz ohne das "Sie":
 ```
 
