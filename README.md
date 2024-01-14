@@ -88,6 +88,19 @@ The given text in German language:
 The list of 6 short questions in imperative form and German language:
 ```
 
+### Convert formal Imperative Question to informal Form
+
+```text
+Gegeben ist ein Satz im Imperativ. \
+Dieser Satz benutzt die formelle Anrede "Sie". \
+Wandle den Satz um, sodass er die informelle Anrede ohne "Sie" beinhaltet. \
+Erkläre nichts weiter und gib nichts Zusätzliches aus.
+
+Der Satz: {sentence}
+
+Der Satz ohne das "Sie":
+```
+
 ## Licensing
 
 ### The Code and Documentation
