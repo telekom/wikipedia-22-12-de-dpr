@@ -40,11 +40,11 @@ We have a maximum of 6 imperative questions per context.
 
 ### Dataset Issues
 
-Most of the imperative questions are written in formal form. Like this:
+Most of the imperative questions are written in formal form. Like this:\
 `Geben Sie das Geburts- und Todesjahr von Georg Marius an.`
 
 This formal form does not necessarily correspond to the form used in typical RAG applications.
-It would also be necessary to have informal imperative sentences like this:
+It would also be necessary to have informal imperative sentences like this:\
 `Gib das Geburts- und Todesjahr von Georg Marius an.`
 We will provide these informal sentences in version 2 of the dataset.
 
