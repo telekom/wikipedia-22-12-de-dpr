@@ -84,6 +84,7 @@ def generate_normal_questions(
         print()
     return results
 
+
 @backoff.on_exception(backoff.constant, Exception, max_tries=100, interval=60, jitter=None)
 def main() -> None:
     """Main function."""
