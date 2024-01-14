@@ -96,8 +96,13 @@ Dieser Satz benutzt die formelle Anrede "Sie". \
 Wandle den Satz um, sodass er die informelle Anrede ohne "Sie" beinhaltet. \
 Erkläre nichts weiter und gib nichts Zusätzliches aus.
 
-Der Satz: {sentence}
+Der Satz: Geben Sie das Geburtsjahr von Karl Heinz an.
+Der Satz ohne das "Sie": Gebe das Geburtsjahr von Karl Heinz an.
 
+Der Satz: Sagen Sie, welches Modell das iPhone 11 abgelöst hat.
+Der Satz ohne das "Sie": Sage, welches Modell das iPhone 11 abgelöst hat.
+
+Der Satz: Listen Sie die Farben auf, in denen das iPhone 5s erhältlich war.
 Der Satz ohne das "Sie":
 ```
 
