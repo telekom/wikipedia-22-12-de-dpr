@@ -24,7 +24,7 @@ of [Deutsche Telekom](https://www.telekom.de/).
 ### Context Passages
 
 The dataset contains 134,591 context passages in total (train + test).
-While we generte the context passages we limit the length of them.
+While we select the context passages we limit the length of them.
 The length is measured with the tokenizer of [`deepset/gbert-base`](https://huggingface.co/deepset/gbert-base).
 We limit the maximum token count to 270.
 A histogram of the context token counts can be found below:
