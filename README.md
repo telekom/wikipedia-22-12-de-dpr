@@ -39,28 +39,32 @@ More on this topic, especially from [Nils Reimers](https://www.nils-reimers.de/)
 
 ### Questions
 
-The dataset has a total of 786,353 questions.
+The dataset has a total (train + test) of 786,353 questions.
 That is an average of 5.84 questions per context.
 We have a maximum of 6 questions per context.
 
-### Imperative Questions
+### Formal Imperative Questions
 
-The dataset also contains 793,143 imperative questions.
+The dataset contains 793,143 formal imperative questions.
 An imperative question is a type of question that is phrased as a command or an instruction.
-That is an average of 5.89 imperative questions per context.
-We have a maximum of 6 imperative questions per context.
+That is an average of 5.89 formal imperative questions per context.
+We have a maximum of 6 formal imperative questions per context.
 
-### Dataset Issues
+### Informal Imperative Questions
 
-Most of the imperative questions are written in formal form. Like this:\
-`Geben Sie das Geburts- und Todesjahr von Georg Marius an.`
-
-This formal form does not necessarily correspond to the form used in typical RAG applications.
-It would also be necessary to have informal imperative sentences like this:\
-`Gib das Geburts- und Todesjahr von Georg Marius an.`\
-We will provide these informal sentences in version 2 of the dataset.
+The dataset contains ??? informal imperative questions.
+An imperative question is a type of question that is phrased as a command or an instruction.
+That is an average of ??? informal imperative questions per context.
+We have a maximum of 6 formal imperative questions per context.
 
 ### Data Files
+
+#### Version 2
+
+- training data (129,591 context passages): `data/wikipedia-22-12-de-train-data-v2.json.gz`
+- test data (5,000 context passages): `data/wikipedia-22-12-de-test-data-v2.json.gz`
+
+#### Version 1 (outdated)
 
 - training data (129,591 context passages): `data/wikipedia-22-12-de-train-data.json.gz`
 - test data (5,000 context passages): `data/wikipedia-22-12-de-test-data.json.gz`
