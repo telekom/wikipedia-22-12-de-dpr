@@ -39,7 +39,7 @@ More on this topic, especially from [Nils Reimers](https://www.nils-reimers.de/)
 
 ### Questions
 
-The dataset has a total (train + test) of 786,353 questions.
+The dataset has a total of 786,353 questions (train + test).
 That is an average of 5.84 questions per context.
 We have a maximum of 6 questions per context.
 
