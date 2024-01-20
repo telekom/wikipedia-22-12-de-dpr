@@ -1,6 +1,7 @@
 # Wikipedia 22-12 DE DPR
 
-The goal of this project is to provide a German dataset for training DPR models.
+The goal of this project is to provide a German dataset for DPR model training.
+DPR (Dense Passage Retrieval) is one of the most important components of RAG applications.
 Based on this dataset, German document retrieval models can be trained.
 
 The unique feature of this data set is that it contains not only training data for questions,
