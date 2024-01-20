@@ -22,13 +22,19 @@ of [Deutsche Telekom](https://www.telekom.de/).
 
 ### Context Passages
 
-The dataset contains 134,591 context passages.
+The dataset contains 134,591 context passages (train + test).
 While we generte the context passages we limit the length of them.
 The length is measured with the tokenizer of [`deepset/gbert-base`](https://huggingface.co/deepset/gbert-base).
 We limit the maximum token count to 270.
 A histogram of the context token counts can be found below:
 
 ![Histogram of token counts](https://raw.githubusercontent.com/telekom/wikipedia-22-12-de-dpr/main/img/context_token_count_histogram.png)
+
+We are aware that there is a tendency to train and publish embedding models with ever increasing context lengths.
+However, we are of the opinion that the retrieval performance becomes too poor if the context is too large.
+We draw the line at 270 tokens.
+More on this topic, especially from [Nils Reimers](https://www.nils-reimers.de/) in the discussion of this
+[LinkedIn post](https://www.linkedin.com/posts/davidmezzetti_togethercomputerm2-bert-80m-32k-retrieval-activity-7152332060303491072-utpW).
 
 ### Questions
 
