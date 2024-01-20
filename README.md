@@ -3,6 +3,11 @@
 The goal of this project is to provide a German dataset for training DPR models.
 Based on this dataset, German document retrieval models can be trained.
 
+The unique feature of this data set is that it contains not only training data for questions,
+but also imperative questions.
+An imperative question is a type of question that is phrased as a command or an instruction.
+Since there is a formal and informal form of address in German, both cases are included in the case of imperative questions.
+
 The source of our data is the [German Wikipedia](https://de.wikipedia.org/)
 or, to be more precise, the data set
 [Cohere/wikipedia-22-12-de-embeddings](https://huggingface.co/datasets/Cohere/wikipedia-22-12-de-embeddings)
