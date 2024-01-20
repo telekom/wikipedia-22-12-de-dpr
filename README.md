@@ -45,14 +45,14 @@ We have a maximum of 6 questions per context.
 
 ### Formal Imperative Questions
 
-The dataset contains 793,143 formal imperative questions.
+The dataset contains 793,143 formal imperative questions (train + test).
 An imperative question is a type of question that is phrased as a command or an instruction.
 That is an average of 5.89 formal imperative questions per context.
 We have a maximum of 6 formal imperative questions per context.
 
 ### Informal Imperative Questions
 
-The dataset contains ??? informal imperative questions.
+The dataset contains ??? informal imperative questions (train + test).
 An imperative question is a type of question that is phrased as a command or an instruction.
 That is an average of ??? informal imperative questions per context.
 We have a maximum of 6 formal imperative questions per context.
