@@ -62,14 +62,14 @@ We have a maximum of 6 formal imperative questions per context.
 An imperative question is a type of question that is phrased as a command or an instruction.
 We have a maximum of 6 informal imperative questions per context.
 
-### Data Files
+## Data Files
 
-#### Version 2
+### Version 2
 
 - training data: `data/wikipedia-22-12-de-train-data-v2.json.gz`
 - test data: `data/wikipedia-22-12-de-test-data-v2.json.gz`
 
-#### Version 1 (outdated)
+### Version 1 (outdated)
 
 - training data (129,591 context passages): `data/wikipedia-22-12-de-train-data.json.gz`
 - test data (5,000 context passages): `data/wikipedia-22-12-de-test-data.json.gz`
