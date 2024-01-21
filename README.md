@@ -74,6 +74,25 @@ We have a maximum of 6 informal imperative questions per context.
 - training data (129,591 context passages): `data/wikipedia-22-12-de-train-data.json.gz`
 - test data (5,000 context passages): `data/wikipedia-22-12-de-test-data.json.gz`
 
+## Data Loading
+
+Below is a data loading example:
+
+```python
+import gzip
+import json
+
+# load train data
+with gzip.GzipFile("./data/wikipedia-22-12-de-train-data-v2.json.gz", "r") as f:
+    train_data = json.loads(f.read().decode('utf-8'))
+assert len(train_data) == 129_591
+
+# load test data
+with gzip.GzipFile("./data/wikipedia-22-12-de-test-data-v2.json.gz", "r") as f:
+    test_data = json.loads(f.read().decode('utf-8'))
+assert len(test_data) == 5_000
+```
+
 ## Prompts
 
 ### Questions
