@@ -23,7 +23,9 @@ of [Deutsche Telekom](https://www.telekom.de/).
 
 ### Context Passages
 
-The dataset contains 134,591 context passages in total (train + test).
+- the train dataset contains 129,591 context passages
+- the test dataset contains 5000 context passages
+
 While we select the context passages we limit the length of them.
 The length is measured with the tokenizer of [`deepset/gbert-base`](https://huggingface.co/deepset/gbert-base).
 We limit the maximum token count to 270.
@@ -39,30 +41,33 @@ More on this topic, especially from [Nils Reimers](https://www.nils-reimers.de/)
 
 ### Questions
 
-The dataset has a total of 786,353 questions (train + test).
-That is an average of 5.84 questions per context.
+- the train dataset contains 757,167 questions
+- the test dataset contains 29,186 questions
+
 We have a maximum of 6 questions per context.
 
 ### Formal Imperative Questions
 
-The dataset contains 793,143 formal imperative questions (train + test).
+- the train dataset contains 762,076 formal imperative questions
+- the test dataset contains 29,404 formal imperative questions
+
 An imperative question is a type of question that is phrased as a command or an instruction.
-That is an average of 5.89 formal imperative questions per context.
 We have a maximum of 6 formal imperative questions per context.
 
 ### Informal Imperative Questions
 
-The dataset contains ??? informal imperative questions (train + test).
+- the train dataset contains 712,383 informal imperative questions
+- the test dataset contains 27,548 informal imperative questions
+
 An imperative question is a type of question that is phrased as a command or an instruction.
-That is an average of ??? informal imperative questions per context.
-We have a maximum of 6 formal imperative questions per context.
+We have a maximum of 6 informal imperative questions per context.
 
 ### Data Files
 
 #### Version 2
 
-- training data (129,591 context passages): `data/wikipedia-22-12-de-train-data-v2.json.gz`
-- test data (5,000 context passages): `data/wikipedia-22-12-de-test-data-v2.json.gz`
+- training data: `data/wikipedia-22-12-de-train-data-v2.json.gz`
+- test data: `data/wikipedia-22-12-de-test-data-v2.json.gz`
 
 #### Version 1 (outdated)
 
