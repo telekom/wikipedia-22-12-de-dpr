@@ -160,7 +160,8 @@ You may obtain a copy of the License by reviewing the file
 
 The Wikipedia texts are licensed under [CC BY-SA 4.0 Deed](https://creativecommons.org/licenses/by-sa/4.0/deed)
 by the corresponding authors of the [German Wikipedia](https://de.wikipedia.org/). The questions and
-imperative questions are copyright by [Philip May](https://may.la/), [Deutsche Telekom AG](https://www.telekom.de/).
+imperative questions are copyright ([CC BY-SA 4.0 Deed](https://creativecommons.org/licenses/by-sa/4.0/deed)) by 
+[Philip May](https://may.la/), [Deutsche Telekom AG](https://www.telekom.de/).
 Indication of changes:
 
 - data source is the [Cohere/wikipedia-22-12-de-embeddings](https://huggingface.co/datasets/Cohere/wikipedia-22-12-de-embeddings) dataset on Hugging Face Hub
