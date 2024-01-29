@@ -1,15 +1,17 @@
+# lint
+mdformat-gfm
+mdformat-frontmatter
+mdformat-footnote
+ruff
+black[jupyter]
+# project requirements
 pandas
 datasets
 ipykernel
 mltb2[transformers,somajo_transformers,arangodb,openai]>=0.11.0
 ipywidgets
-black[jupyter]
-mdformat-gfm
-mdformat-frontmatter
-mdformat-footnote
 tqdm
 matplotlib
 scipy
-ruff
 backoff
 jsonlines
