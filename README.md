@@ -1,5 +1,7 @@
 # Wikipedia 22-12 DE DPR
 
+[also available as a Hugging Face dataset](https://huggingface.co/datasets/deutsche-telekom/wikipedia-22-12-de-dpr)
+
 The goal of this project is to provide a German dataset for DPR model training.
 DPR (Dense Passage Retrieval) is one of the most important components of RAG applications.
 Based on this dataset, German document retrieval models can be trained.
